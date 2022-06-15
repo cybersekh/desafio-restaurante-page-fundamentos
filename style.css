@@ -1,2 +1,257 @@
-/* Adicione aqui todo o estilo da sua página */
-/* Hora de colocar a criatividade em prática! */
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #f0e6ef;
+    font-family: 'Montserrat';
+}
+
+.sidebar {
+    display: block;
+    width: 20%;
+    height: 100%;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    position:fixed;
+}
+
+.chefdesc {
+    background-color: #efc3e6;
+    margin: 100px 10px 10px 10px;
+    padding: 20px;
+    text-align: justify;
+    box-shadow: 2px 2px 1px #9c89b8;
+    color: #505050;
+    font-family: 'Montserrat';
+}
+
+.chefdesc p {
+    background-color: #e2b2e9;
+    padding: 10px;
+}
+
+.chef {
+    margin-left: 25px;
+    width: 80%;
+    border-radius: 50%;
+    border: 5px solid #b8bedd;
+    opacity: 0.8;
+}
+
+strong {
+    color: #9c89b8;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    color: #9c89b8;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #efc3e6;
+    margin: 20px 10px 10px 10px;
+    box-shadow: 2px 2px 1px #9c89b8;
+    
+}
+
+li {
+    margin-left: -40px;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    list-style-type: none;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}
+
+li:hover{
+    background-color: #9c89b8;
+    cursor: pointer;
+}
+
+a li:hover {
+    color:#fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+a li {
+    text-decoration: none;
+    color: #9c89b8;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+}
+
+.maincontent {
+    margin-left: 500px;
+    height: 100%;
+    width: 60%;
+    background-color: #f0a6ca;
+}
+
+.header {
+    background-image: url(https://wallpx.com/image/2021/07/cake-ice-cream-strawberry-anime-food-dessert.jpg);
+    background-size: cover;
+    background-position: 40%;
+    background-repeat: no-repeat;
+    opacity: 70%;
+    height: 700px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Lobster';
+    color: #9c89b8;
+    text-shadow: 2px 2px black;
+  }
+
+.intro {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #efc3e6;
+    padding: 12px;
+    margin-top: 30px;
+    margin-left: 400px;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    color: #505050;
+    border: 2px solid white;
+ }
+
+ .intro:hover {
+    color: white;
+    border: 2px solid white;
+    background-color: #9c89b8;
+    transition-property: color border background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    cursor: url(http://www.rw-designer.com/cursor-view/92478.png), auto;
+ }
+
+ .cardapio {
+    display: inline-block;
+    background-color: white;
+    padding: 40px;
+    margin-top: 8%;
+    color: #505050;
+ }
+
+ .menu {
+    display: inline-block;
+ }
+
+ .menuimg {
+    width: 250px;
+    border: 2px solid #b8bedd;
+
+ }
+
+ .menuimg:hover {
+    width: 300px;
+    margin-left: -20px;
+    transition-property: width margin;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    cursor: url(http://www.rw-designer.com/cursor-view/92478.png), auto;
+
+ }
+
+ h3 {
+    color: #9c89b8;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 5px;
+ }
+
+ .item {
+    margin-top: 20px;
+    margin-left: 35px;
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+    text-align: justify;
+ }
+
+ .testimonials {
+    display: inline-block;
+    padding: 20px;
+ }
+
+.imgcliente {
+    width: 200px;
+    border-radius: 20%;
+    margin-left: 30px;
+    border: 5px solid #b8bedd;
+}
+
+ .cliente {
+    margin-top: 30px;
+    margin-left: 38px;
+    font-family: 'Montserrat';
+    display: inline-block;
+    width: 25%;
+    background-color: #f0e6ef;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 1px #9c89b8;
+    margin-bottom: 50px;
+ }
+
+ .contato {
+    background-color: #ffffff;
+    padding: 40px;
+ }
+
+.contato p {
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+ .contatoleft {
+    margin-top: 20px;
+    display: inline-block;
+    width: 400px;
+    padding: 40px;
+    background-color: #efc3e6;
+    margin-left: 20px;
+ }
+
+ .contatoright {
+    margin-top: 20px;
+    display: inline-block;
+    width: 400px;
+    padding: 40px;
+    background-color: #efc3e6;
+    margin-left: 10px;
+ }
+
+ footer {
+    background-color: #b8bedd;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+ }
+
+.chef:hover{
+ cursor: url(http://www.rw-designer.com/cursor-view/92478.png), auto;
+ filter: grayscale(100%);
+ visibility: visible;
+ transition: filter 1.5s;
+}
+
+
